@@ -1,0 +1,39 @@
+{
+  "name": "persian-words-category",
+  "version": "1.0.0",
+  "description": "list of persian word categories",
+  "main": "index.js",
+  "bin": {
+    "persianwordscategory": "./cli.js",
+    "persianwordscategorylist": "./clicategorylist.js",
+    "persian-words-category": "./cli.js"
+  },
+  "scripts": {
+    "test-api": "node test",
+    "test": "npm run test-api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pfndesign/persian-words-category.git"
+  },
+  "keywords": [
+    "words",
+    "word",
+    "category",
+    "fa",
+    "persian",
+    "language"
+  ],
+  "author": "peyman farahmand <pfndesigen@gmail.com> (https://www.linkedin.com/in/pfndesign)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pfndesign/persian-words-category/issues"
+  },
+  "homepage": "https://github.com/pfndesign/persian-words-category#readme",
+  "dependencies": {
+    "yargs": "^17.3.1"
+  },
+  "devDependencies": {
+    "tape": "^5.5.2"
+  }
+}
