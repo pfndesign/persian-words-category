@@ -23,7 +23,13 @@ console.log(findwordcategory("شهر"));
 if finding category was successful will return :
 
 ```js
-["noun"]
+[ 
+  'noun',
+  'adjective',
+  'arabic',
+  'infinitive',
+  'properNoun'
+]
 ```
 if finding category is not successful will return "undefined"
 
