@@ -146,6 +146,12 @@ Options:
   -c, --categories  list of available categories (case sensitive)      [boolean]
       --help        Show help                                          [boolean]
 ```
+## Related
+
+*   [`an-array-of-persian-words`](https://github.com/pfndesign/an-array-of-persian-words)
+*   [`similar-persian-words`](https://github.com/pfndesign/similar-persian-words)
+*   [`persian-words-pronunciation`](https://github.com/pfndesign/persian-words-pronunciation)
+
 [MIT][license] © [Peyman farahmand][author]
 
 <!-- Definition -->
