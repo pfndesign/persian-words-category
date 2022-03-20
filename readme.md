@@ -14,22 +14,23 @@ npm install persian-words-category
 
 ## Use
 ### find word category
+
+the different pronunciation will return different categories based on the meaning of the word
+
 ```js
 var {findwordcategory} = require('persian-words-category')
 
-console.log(findwordcategory("شهر"));
+console.log(findwordcategory("مشهد"));
+console.log(findwordcategory("مَشهَد"));
+console.log(findwordcategory("مُشهَد"));
 ```
 
 if finding category was successful will return :
 
 ```js
-[ 
-  'noun',
-  'adjective',
-  'arabic',
-  'infinitive',
-  'properNoun'
-]
+[ 'noun', 'arabic', 'adjective', 'properNoun' ]
+[ 'noun', 'arabic', 'properNoun' ]
+[ 'adjective', 'arabic' ]
 ```
 if finding category is not successful will return "undefined"
 
